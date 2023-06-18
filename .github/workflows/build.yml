@@ -13,7 +13,6 @@ jobs:
         # Use these Java versions
         java: [
           17,    # Current Java LTS & minimum supported by Minecraft
-          20,    # Latest availible
         ]
         # and run only on Linux
         os: [ubuntu-22.04]
