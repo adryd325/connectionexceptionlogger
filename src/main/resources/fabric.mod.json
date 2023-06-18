@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "connectionexceptionlogger",
+  "version": "${version}",
+
+  "name": "Connection Exception Logger",
+  "description": "Logs Exceptions in ClientConnection",
+  "authors": [
+    "adryd"
+  ],
+  "contact": {
+    "homepage": "https://adryd.com/",
+    "sources": "https://github.com/adryd325"
+  },
+
+  "license": "MIT",
+  "icon": "assets/connectionexceptionlogger/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "connectionexceptionlogger.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": ">=1.20",
+    "java": ">=17"
+  }
+}
